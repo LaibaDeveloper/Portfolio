@@ -1,1 +1,203 @@
-updated about me section
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Laiba Khan | Portfolio</title>
+  <style>
+    /* Reset and basic styling */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0; padding: 0;
+      background: #f4f7f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #005f73;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #94d2bd;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #ee9b00;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgb(0 0 0 / 0.1);
+    }
+    section h2 {
+      border-bottom: 3px solid #005f73;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      color: #0a9396;
+    }
+
+    /* About Me */
+    #about img {
+      max-width: 150px;
+      border-radius: 50%;
+      float: left;
+      margin-right: 20px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    #about p {
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
+
+    /* Skills */
+    #skills ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    #skills li {
+      background: #94d2bd;
+      color: #001219;
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-weight: 600;
+      box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+    }
+
+    /* Projects */
+    #projects .project {
+      margin-bottom: 1.5rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 1rem;
+      transition: box-shadow 0.3s ease;
+    }
+    #projects .project:hover {
+      box-shadow: 0 5px 15px rgb(0 0 0 / 0.2);
+    }
+    #projects .project h3 {
+      margin-top: 0;
+      color: #005f73;
+    }
+    #projects .project a {
+      color: #ee9b00;
+      text-decoration: none;
+    }
+    #projects .project a:hover {
+      text-decoration: underline;
+    }
+
+    /* Contact */
+    #contact p {
+      font-size: 1.1rem;
+    }
+    #contact a {
+      color: #005f73;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    #contact a:hover {
+      color: #ee9b00;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background: #001219;
+      color: #94d2bd;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive */
+    @media(max-width: 600px) {
+      #about img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+      }
+      #skills ul {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Laiba Khan</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="laiba.jpeg.jpeg" alt="Laiba Khan" />
+      <p>Hello! I’m Laiba, a passionate web developer and designer. I love creating beautiful and functional websites that help businesses and individuals establish a strong online presence. With a background in HTML, CSS, and JavaScript, I enjoy turning ideas into reality.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+        <li>Git & GitHub</li>
+        <li>Elementor</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website showcasing my work and skills.</p>
+        <a href="https://laibadeveloper.github.io/Portfolio/" target="_blank" rel="noopener noreferrer">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Project Two</h3>
+        <p>Description of your second project here.</p>
+        <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>You can reach me at: <a href="mailto:laibakhan.web55@gmail.com">laibakhan.web55@gmail.com</a></p>
+      <p>Or find me on <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Laiba Khan | All rights reserved.</p>
+  </footer>
+</body>
+</html>
+  
